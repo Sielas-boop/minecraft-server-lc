@@ -368,3 +368,17 @@
 [20:55:57] [Server thread/INFO]: Tarti_wii left the game
 [20:56:08] [Server thread/INFO]: FNocturna lost connection: Disconnected
 [20:56:08] [Server thread/INFO]: FNocturna left the game
+[21:31:10] [RCON Listener #1/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 started
+[21:31:10] [Server thread/INFO]: [Rcon: Stopping the server]
+[21:31:10] [Server thread/INFO]: Stopping server
+[21:31:10] [RCON Client /0:0:0:0:0:0:0:1 #2/INFO]: Thread RCON Client /0:0:0:0:0:0:0:1 shutting down
+[21:31:10] [Server thread/INFO]: Saving players
+[21:31:10] [Server thread/INFO]: Saving worlds
+[21:31:10] [Server thread/INFO]: Saving chunks for level 'ServerLevel[LAST CHRISTMAS]'/minecraft:overworld
+[21:31:11] [Server thread/INFO]: Saving chunks for level 'ServerLevel[LAST CHRISTMAS]'/minecraft:the_nether
+[21:31:12] [Server thread/INFO]: Saving chunks for level 'ServerLevel[LAST CHRISTMAS]'/minecraft:the_end
+[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (LAST CHRISTMAS): All chunks are saved
+[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[21:31:12] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[21:31:13] [Server thread/INFO]: Thread RCON Listener stopped
