@@ -1,0 +1,635 @@
+---- Minecraft Crash Report ----
+// You're mean.
+
+Time: 2025-12-26 15:28:42
+Description: Watching Server
+
+java.lang.Error: Watchdog
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at knot//net.minecraft.class_1255.method_20813(class_1255.java:164)
+	at knot//net.minecraft.class_1255.method_18857(class_1255.java:154)
+	at knot//net.minecraft.class_3215$class_4212.method_18857(class_3215.java:598)
+	at knot//net.minecraft.class_3215.getChunkBlocking(class_3215.java:1325)
+	at knot//net.minecraft.class_3215.method_12121(class_3215.java:1239)
+	at knot//net.minecraft.class_1937.method_8402(class_1937.java:210)
+	at knot//net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper.nextSection(ChunkAwareBlockCollisionSweeper.java:159)
+	at knot//net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper.computeNext(ChunkAwareBlockCollisionSweeper.java:204)
+	at knot//net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper.computeNext(ChunkAwareBlockCollisionSweeper.java:35)
+	at knot//com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:141)
+	at knot//com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:136)
+	at knot//net.caffeinemc.mods.lithium.common.util.collections.LazyList.produceToIndex(LazyList.java:23)
+	at knot//net.caffeinemc.mods.lithium.common.util.collections.LazyList$1.hasNext(LazyList.java:53)
+	at knot//net.minecraft.class_259.method_1085(class_259.java:209)
+	at knot//net.minecraft.class_1297.lithium$CollideMovement(class_1297.java:8190)
+	at knot//net.minecraft.class_1297.redirect$zoh000$lithium$collideMovementWithPostponedGetEntities(class_1297.java:8080)
+	at knot//net.minecraft.class_1297.method_17835(class_1297.java:1218)
+	at knot//net.minecraft.class_1297.method_5784(class_1297.java:815)
+	at knot//net.minecraft.class_3244.method_12063(class_3244.java:1166)
+	at knot//net.minecraft.class_2828.method_12272(class_2828.java:183)
+	at knot//net.minecraft.class_2828$class_2829.method_65081(class_2828.java:80)
+	at knot//net.minecraft.class_11980$class_11981.method_74450(class_11980.java:55)
+	at knot//net.minecraft.class_11980.method_74449(class_11980.java:38)
+	at knot//net.minecraft.server.MinecraftServer.method_76677(MinecraftServer.java:1047)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:771)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:301)
+	at knot//net.minecraft.server.MinecraftServer$$Lambda/0x00007f0a48f4f060.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Server Watchdog
+Stacktrace:
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at knot//net.minecraft.class_1255.method_20813(class_1255.java:164)
+	at knot//net.minecraft.class_1255.method_18857(class_1255.java:154)
+	at knot//net.minecraft.class_3215$class_4212.method_18857(class_3215.java:598)
+	at knot//net.minecraft.class_3215.getChunkBlocking(class_3215.java:1325)
+	at knot//net.minecraft.class_3215.method_12121(class_3215.java:1239)
+	at knot//net.minecraft.class_1937.method_8402(class_1937.java:210)
+	at knot//net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper.nextSection(ChunkAwareBlockCollisionSweeper.java:159)
+	at knot//net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper.computeNext(ChunkAwareBlockCollisionSweeper.java:204)
+	at knot//net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper.computeNext(ChunkAwareBlockCollisionSweeper.java:35)
+	at knot//com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:141)
+	at knot//com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:136)
+	at knot//net.caffeinemc.mods.lithium.common.util.collections.LazyList.produceToIndex(LazyList.java:23)
+	at knot//net.caffeinemc.mods.lithium.common.util.collections.LazyList$1.hasNext(LazyList.java:53)
+	at knot//net.minecraft.class_259.method_1085(class_259.java:209)
+	at knot//net.minecraft.class_1297.lithium$CollideMovement(class_1297.java:8190)
+	at knot//net.minecraft.class_1297.redirect$zoh000$lithium$collideMovementWithPostponedGetEntities(class_1297.java:8080)
+	at knot//net.minecraft.class_1297.method_17835(class_1297.java:1218)
+	at knot//net.minecraft.class_1297.method_5784(class_1297.java:815)
+	at knot//net.minecraft.class_3244.method_12063(class_3244.java:1166)
+	at knot//net.minecraft.class_2828.method_12272(class_2828.java:183)
+	at knot//net.minecraft.class_2828$class_2829.method_65081(class_2828.java:80)
+	at knot//net.minecraft.class_11980$class_11981.method_74450(class_11980.java:55)
+	at knot//net.minecraft.class_11980.method_74449(class_11980.java:38)
+	at knot//net.minecraft.server.MinecraftServer.method_76677(MinecraftServer.java:1047)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:771)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:301)
+
+-- Thread Dump --
+Details:
+	Threads: "Reference Handler" daemon prio=10 Id=9 RUNNABLE
+	at java.base@21.0.9/java.lang.ref.Reference.waitForReferencePendingList(Native Method)
+	at java.base@21.0.9/java.lang.ref.Reference.processPendingReferences(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.Reference$ReferenceHandler.run(Unknown Source)
+
+
+"Finalizer" daemon prio=8 Id=10 WAITING on java.lang.ref.NativeReferenceQueue$Lock@3828af12
+	at java.base@21.0.9/java.lang.Object.wait0(Native Method)
+	-  waiting on java.lang.ref.NativeReferenceQueue$Lock@3828af12
+	at java.base@21.0.9/java.lang.Object.wait(Unknown Source)
+	at java.base@21.0.9/java.lang.Object.wait(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.NativeReferenceQueue.await(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.NativeReferenceQueue.remove(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.Finalizer$FinalizerThread.run(Unknown Source)
+
+
+"Signal Dispatcher" daemon prio=9 Id=11 RUNNABLE
+
+
+"Notification Thread" daemon prio=9 Id=17 RUNNABLE
+
+
+"Common-Cleaner" daemon prio=8 Id=18 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2c0d3172
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@2c0d3172
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.await(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at java.base@21.0.9/jdk.internal.ref.CleanerImpl.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+	at java.base@21.0.9/jdk.internal.misc.InnocuousThread.run(Unknown Source)
+
+
+"JNA Cleaner" daemon prio=5 Id=33 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@429fb0c0
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@429fb0c0
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.await(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.await(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove0(Unknown Source)
+	at java.base@21.0.9/java.lang.ref.ReferenceQueue.remove(Unknown Source)
+	at knot//com.sun.jna.internal.Cleaner$CleanerThread.run(Cleaner.java:154)
+
+
+"Timer hack thread" daemon prio=5 Id=34 TIMED_WAITING
+	at java.base@21.0.9/java.lang.Thread.sleep0(Native Method)
+	at java.base@21.0.9/java.lang.Thread.sleep(Unknown Source)
+	at knot//net.minecraft.class_156$11.run(class_156.java:990)
+
+
+"Yggdrasil Key Fetcher" daemon prio=5 Id=35 TIMED_WAITING on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@71559c52
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject@71559c52
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.take(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+
+"Worker-Main-1" daemon prio=5 Id=38 WAITING on java.util.concurrent.CompletableFuture$Signaller@6f054065
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.CompletableFuture$Signaller@6f054065
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.CompletableFuture$Signaller.block(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.compensatedBlock(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.CompletableFuture.waitingGet(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.CompletableFuture.join(Unknown Source)
+	at knot//net.minecraft.class_4698.method_42331(class_4698.java:148)
+	at knot//net.minecraft.class_4698$$Lambda/0x00007f0a493bb890.accept(Unknown Source)
+	at knot//net.minecraft.class_1923$2.tryAdvance(class_1923.java:263)
+	at java.base@21.0.9/java.util.Spliterator.forEachRemaining(Unknown Source)
+	at java.base@21.0.9/java.util.stream.ReferencePipeline$Head.forEach(Unknown Source)
+	at knot//net.minecraft.class_4698.method_42334(class_4698.java:141)
+	at knot//net.minecraft.class_4698$$Lambda/0x00007f0a493bb668.get(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.CompletableFuture$AsyncSupply.run(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.CompletableFuture$AsyncSupply.exec(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+
+"Worker-Main-2" daemon prio=5 Id=39 TIMED_WAITING on java.util.concurrent.ForkJoinPool@2a467a56
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.ForkJoinPool@2a467a56
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkUntil(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.awaitWork(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+
+"Worker-Main-3" daemon prio=5 Id=40 WAITING on java.util.concurrent.CompletableFuture$Signaller@15e0d66e
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.CompletableFuture$Signaller@15e0d66e
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.park(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.CompletableFuture$Signaller.block(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.compensatedBlock(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.managedBlock(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.CompletableFuture.waitingGet(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.CompletableFuture.join(Unknown Source)
+	at knot//net.minecraft.class_4698.method_42330(class_4698.java:92)
+	at knot//net.minecraft.class_3977.method_42328(class_3977.java:42)
+	at knot//net.minecraft.class_3233.method_42109(class_3233.java:97)
+	at knot//net.minecraft.class_6748.method_39342(class_6748.java:79)
+	at knot//net.minecraft.class_9310.method_57605(class_9310.java:62)
+	at knot//net.minecraft.class_9768$$Lambda/0x00007f0a48aab3b0.doWork(Unknown Source)
+	at knot//net.minecraft.class_9770.method_60560(class_9770.java:33)
+	at knot//net.minecraft.class_3898.method_60442(class_3898.java:684)
+	at knot//net.minecraft.class_9761.method_60461(class_9761.java:100)
+	at knot//net.minecraft.class_9759.method_60428(class_9759.java:146)
+	at knot//net.minecraft.class_9759.method_60427(class_9759.java:123)
+	at knot//net.minecraft.class_9759.method_60432(class_9759.java:74)
+	at knot//net.minecraft.class_9759.method_60424(class_9759.java:59)
+	at knot//net.minecraft.class_3898.method_60446(class_3898.java:716)
+	at knot//net.minecraft.class_3898$$Lambda/0x00007f0a49147070.run(Unknown Source)
+	at knot//net.minecraft.class_10171.method_63554(class_10171.java:88)
+	at knot//net.minecraft.class_10171$$Lambda/0x00007f0a49142688.accept(Unknown Source)
+	at knot//net.minecraft.class_10178.method_63604(class_10178.java:21)
+	at knot//net.minecraft.class_10178$$Lambda/0x00007f0a491428c0.run(Unknown Source)
+	at knot//net.minecraft.class_156.method_64122(class_156.java:297)
+	at knot//net.minecraft.class_10174.method_63592(class_10174.java:50)
+	at knot//net.minecraft.class_10174.run(class_10174.java:62)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.exec(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinTask.doExec(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.scan(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinPool.runWorker(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ForkJoinWorkerThread.run(Unknown Source)
+
+
+"Server thread" prio=5 Id=41 TIMED_WAITING on java.lang.String@488a7f8c
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.lang.String@488a7f8c
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at knot//net.minecraft.class_1255.method_20813(class_1255.java:164)
+	at knot//net.minecraft.class_1255.method_18857(class_1255.java:154)
+	at knot//net.minecraft.class_3215$class_4212.method_18857(class_3215.java:598)
+	at knot//net.minecraft.class_3215.getChunkBlocking(class_3215.java:1325)
+	at knot//net.minecraft.class_3215.method_12121(class_3215.java:1239)
+	at knot//net.minecraft.class_1937.method_8402(class_1937.java:210)
+	at knot//net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper.nextSection(ChunkAwareBlockCollisionSweeper.java:159)
+	at knot//net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper.computeNext(ChunkAwareBlockCollisionSweeper.java:204)
+	at knot//net.caffeinemc.mods.lithium.common.entity.movement.ChunkAwareBlockCollisionSweeper.computeNext(ChunkAwareBlockCollisionSweeper.java:35)
+	at knot//com.google.common.collect.AbstractIterator.tryToComputeNext(AbstractIterator.java:141)
+	at knot//com.google.common.collect.AbstractIterator.hasNext(AbstractIterator.java:136)
+	at knot//net.caffeinemc.mods.lithium.common.util.collections.LazyList.produceToIndex(LazyList.java:23)
+	at knot//net.caffeinemc.mods.lithium.common.util.collections.LazyList$1.hasNext(LazyList.java:53)
+	at knot//net.minecraft.class_259.method_1085(class_259.java:209)
+	at knot//net.minecraft.class_1297.lithium$CollideMovement(class_1297.java:8190)
+	at knot//net.minecraft.class_1297.redirect$zoh000$lithium$collideMovementWithPostponedGetEntities(class_1297.java:8080)
+	at knot//net.minecraft.class_1297.method_17835(class_1297.java:1218)
+	at knot//net.minecraft.class_1297.method_5784(class_1297.java:815)
+	at knot//net.minecraft.class_3244.method_12063(class_3244.java:1166)
+	at knot//net.minecraft.class_2828.method_12272(class_2828.java:183)
+	at knot//net.minecraft.class_2828$class_2829.method_65081(class_2828.java:80)
+	at knot//net.minecraft.class_11980$class_11981.method_74450(class_11980.java:55)
+	at knot//net.minecraft.class_11980.method_74449(class_11980.java:38)
+	at knot//net.minecraft.server.MinecraftServer.method_76677(MinecraftServer.java:1047)
+	at knot//net.minecraft.server.MinecraftServer.method_29741(MinecraftServer.java:771)
+	at knot//net.minecraft.server.MinecraftServer.method_29739(MinecraftServer.java:301)
+	at knot//net.minecraft.server.MinecraftServer$$Lambda/0x00007f0a48f4f060.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+
+"DestroyJavaVM" prio=5 Id=43 RUNNABLE
+
+
+"Server console handler" daemon prio=5 Id=44 RUNNABLE (in native)
+	at java.base@21.0.9/java.io.FileInputStream.readBytes(Native Method)
+	at java.base@21.0.9/java.io.FileInputStream.read(Unknown Source)
+	at java.base@21.0.9/java.io.BufferedInputStream.read1(Unknown Source)
+	at java.base@21.0.9/java.io.BufferedInputStream.implRead(Unknown Source)
+	at java.base@21.0.9/java.io.BufferedInputStream.read(Unknown Source)
+	at java.base@21.0.9/sun.nio.cs.StreamDecoder.readBytes(Unknown Source)
+	at java.base@21.0.9/sun.nio.cs.StreamDecoder.implRead(Unknown Source)
+	at java.base@21.0.9/sun.nio.cs.StreamDecoder.lockedRead(Unknown Source)
+	at java.base@21.0.9/sun.nio.cs.StreamDecoder.read(Unknown Source)
+	at java.base@21.0.9/java.io.InputStreamReader.read(Unknown Source)
+	at java.base@21.0.9/java.io.BufferedReader.fill(Unknown Source)
+	at java.base@21.0.9/java.io.BufferedReader.implReadLine(Unknown Source)
+	at java.base@21.0.9/java.io.BufferedReader.readLine(Unknown Source)
+	at java.base@21.0.9/java.io.BufferedReader.readLine(Unknown Source)
+	at knot//net.minecraft.class_3176$1.run(class_3176.java:186)
+
+	Number of locked synchronizers = 3
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@d491890
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@14c457a5
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@704b0f5
+
+
+"Netty Epoll IO #0" daemon prio=5 Id=45 RUNNABLE
+	at knot//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:193)
+	at knot//io.netty.channel.epoll.EpollIoHandler.epollWait(EpollIoHandler.java:373)
+	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:439)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@1c69d986
+
+
+"RCON Listener #1" prio=5 Id=46 RUNNABLE
+	at java.base@21.0.9/sun.nio.ch.Net.poll(Native Method)
+	at java.base@21.0.9/sun.nio.ch.NioSocketImpl.park(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.NioSocketImpl.timedAccept(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.NioSocketImpl.accept(Unknown Source)
+	at java.base@21.0.9/java.net.ServerSocket.implAccept(Unknown Source)
+	at java.base@21.0.9/java.net.ServerSocket.platformImplAccept(Unknown Source)
+	at java.base@21.0.9/java.net.ServerSocket.implAccept(Unknown Source)
+	at java.base@21.0.9/java.net.ServerSocket.implAccept(Unknown Source)
+	at java.base@21.0.9/java.net.ServerSocket.accept(Unknown Source)
+	at knot//net.minecraft.class_3408.run(class_3408.java:42)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@5921cf03
+
+
+"Server Watchdog" daemon prio=5 Id=47 RUNNABLE
+	at java.management@21.0.9/sun.management.ThreadImpl.dumpThreads0(Native Method)
+	at java.management@21.0.9/sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+	at java.management@21.0.9/sun.management.ThreadImpl.dumpAllThreads(Unknown Source)
+	at knot//net.minecraft.class_3178.method_61256(class_3178.java:75)
+	at knot//net.minecraft.class_3178.run(class_3178.java:47)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+
+"Netty Epoll IO #1" daemon prio=5 Id=48 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:193)
+	at knot//io.netty.channel.epoll.EpollIoHandler.epollWait(EpollIoHandler.java:373)
+	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:439)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@6feed2fd
+
+
+"Netty Epoll IO #2" daemon prio=5 Id=49 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:193)
+	at knot//io.netty.channel.epoll.EpollIoHandler.epollWait(EpollIoHandler.java:373)
+	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:439)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@4d4f44ed
+
+
+"Netty Epoll IO #3" daemon prio=5 Id=57 RUNNABLE
+	at knot//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:193)
+	at knot//io.netty.channel.epoll.EpollIoHandler.epollWait(EpollIoHandler.java:373)
+	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:439)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@1fb8012b
+
+
+"Netty Epoll IO #4" daemon prio=5 Id=60 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:193)
+	at knot//io.netty.channel.epoll.EpollIoHandler.epollWait(EpollIoHandler.java:373)
+	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:439)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@48368c08
+
+
+"Netty Epoll IO #5" daemon prio=5 Id=62 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:193)
+	at knot//io.netty.channel.epoll.EpollIoHandler.epollWait(EpollIoHandler.java:373)
+	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:439)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@5156d6c9
+
+
+"Netty Epoll IO #6" daemon prio=5 Id=65 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:193)
+	at knot//io.netty.channel.epoll.EpollIoHandler.epollWait(EpollIoHandler.java:373)
+	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:439)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@66098822
+
+
+"Netty Epoll IO #7" daemon prio=5 Id=69 RUNNABLE (in native)
+	at knot//io.netty.channel.epoll.Native.epollWait0(Native Method)
+	at knot//io.netty.channel.epoll.Native.epollWait(Native.java:193)
+	at knot//io.netty.channel.epoll.EpollIoHandler.epollWait(EpollIoHandler.java:373)
+	at knot//io.netty.channel.epoll.EpollIoHandler.run(EpollIoHandler.java:439)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.runIo(SingleThreadIoEventLoop.java:225)
+	at knot//io.netty.channel.SingleThreadIoEventLoop.run(SingleThreadIoEventLoop.java:196)
+	at knot//io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:1193)
+	at knot//io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.locks.ReentrantLock$NonfairSync@39677c91
+
+
+"IO-Worker-27" prio=5 Id=93 RUNNABLE
+	at java.base@21.0.9/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method)
+	at java.base@21.0.9/sun.nio.ch.UnixFileDispatcherImpl.pwrite(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.FileChannelImpl.writeInternal(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at knot//net.minecraft.class_2861.method_21870(class_2861.java:453)
+	at knot//net.minecraft.class_2861.method_21874(class_2861.java:425)
+	-  locked net.minecraft.class_2861@454de179
+	at knot//net.minecraft.class_2861$class_2862.close(class_2861.java:393)
+	at java.base@21.0.9/java.util.zip.DeflaterOutputStream.close(Unknown Source)
+	at java.base@21.0.9/java.io.FilterOutputStream.close(Unknown Source)
+	at java.base@21.0.9/java.io.FilterOutputStream.close(Unknown Source)
+	at knot//net.minecraft.class_2867.method_23726(class_2867.java:82)
+	at knot//net.minecraft.class_4698.method_23701(class_4698.java:280)
+	at knot//net.minecraft.class_4698.method_23719(class_4698.java:270)
+	at knot//net.minecraft.class_4698$$Lambda/0x00007f0a4914a738.run(Unknown Source)
+	at knot//net.minecraft.class_3847$class_3907.run(class_3847.java:50)
+	at knot//net.minecraft.class_156.method_64122(class_156.java:297)
+	at knot//net.minecraft.class_10174.method_63592(class_10174.java:50)
+	at knot//net.minecraft.class_10174.run(class_10174.java:62)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@49321092
+
+
+"IO-Worker-48" prio=5 Id=114 RUNNABLE
+	at java.base@21.0.9/sun.nio.ch.UnixFileDispatcherImpl.pwrite0(Native Method)
+	at java.base@21.0.9/sun.nio.ch.UnixFileDispatcherImpl.pwrite(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.IOUtil.writeFromNativeBuffer(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.IOUtil.write(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.FileChannelImpl.writeInternal(Unknown Source)
+	at java.base@21.0.9/sun.nio.ch.FileChannelImpl.write(Unknown Source)
+	at knot//net.minecraft.class_2861.method_21874(class_2861.java:420)
+	-  locked net.minecraft.class_2861@8284364
+	at knot//net.minecraft.class_2861$class_2862.close(class_2861.java:393)
+	at java.base@21.0.9/java.util.zip.DeflaterOutputStream.close(Unknown Source)
+	at java.base@21.0.9/java.io.FilterOutputStream.close(Unknown Source)
+	at java.base@21.0.9/java.io.FilterOutputStream.close(Unknown Source)
+	at knot//net.minecraft.class_2867.method_23726(class_2867.java:82)
+	at knot//net.minecraft.class_4698.method_23701(class_4698.java:280)
+	at knot//net.minecraft.class_4698.method_23719(class_4698.java:270)
+	at knot//net.minecraft.class_4698$$Lambda/0x00007f0a4914a738.run(Unknown Source)
+	at knot//net.minecraft.class_3847$class_3907.run(class_3847.java:50)
+	at knot//net.minecraft.class_156.method_64122(class_156.java:297)
+	at knot//net.minecraft.class_10174.method_63592(class_10174.java:50)
+	at knot//net.minecraft.class_10174.run(class_10174.java:62)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+	Number of locked synchronizers = 1
+	- java.util.concurrent.ThreadPoolExecutor$Worker@36367c76
+
+
+"IO-Worker-50" prio=5 Id=116 TIMED_WAITING on java.util.concurrent.SynchronousQueue$Transferer@aa92504
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$Transferer@aa92504
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.LinkedTransferQueue$DualNode.await(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.SynchronousQueue.xfer(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+
+"IO-Worker-53" prio=5 Id=121 TIMED_WAITING on java.util.concurrent.SynchronousQueue$Transferer@aa92504
+	at java.base@21.0.9/jdk.internal.misc.Unsafe.park(Native Method)
+	-  waiting on java.util.concurrent.SynchronousQueue$Transferer@aa92504
+	at java.base@21.0.9/java.util.concurrent.locks.LockSupport.parkNanos(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.LinkedTransferQueue$DualNode.await(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.SynchronousQueue$Transferer.xferLifo(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.SynchronousQueue.xfer(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.SynchronousQueue.poll(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.getTask(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.base@21.0.9/java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.runWith(Unknown Source)
+	at java.base@21.0.9/java.lang.Thread.run(Unknown Source)
+
+
+
+Stacktrace:
+	at knot//net.minecraft.class_3178.method_61256(class_3178.java:90)
+	at knot//net.minecraft.class_3178.run(class_3178.java:47)
+	at java.base/java.lang.Thread.run(Unknown Source)
+
+-- Performance stats --
+Details:
+	Random tick rate: 3
+	Level stats: minecraft:overworld: players: 4, entities: 588,588,386,1151,1151,0,0 [minecraft:chicken:87,minecraft:creeper:65,minecraft:zombie:63,minecraft:skeleton:55,minecraft:item:54], block_entities: 1619 [minecraft:sculk_sensor:955,minecraft:sculk_catalyst:252,minecraft:mob_spawner:111,minecraft:sculk_shrieker:90,<lithium_sleeping>:73], block_ticks: 8976, fluid_ticks: 80, chunk_source: Chunks[S] W: 4663 E: 588,588,386,1151,1151,0,0,
+minecraft:the_end: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0,
+minecraft:the_nether: players: 0, entities: 0,0,0,0,0,0,0 [], block_entities: 0 [], block_ticks: 0, fluid_ticks: 0, chunk_source: Chunks[S] W: 0 E: 0,0,0,0,0,0,0
+
+-- System Details --
+Details:
+	Minecraft Version: 1.21.11
+	Minecraft Version ID: 1.21.11
+	Operating System: Linux (amd64) version 4.4.302+
+	Java Version: 21.0.9, Eclipse Adoptium
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Eclipse Adoptium
+	Memory: 80071936 bytes (76 MiB) / 1073741824 bytes (1024 MiB) up to 1073741824 bytes (1024 MiB)
+	CPUs: 4
+	Processor Vendor: GenuineIntel
+	Processor Name: Intel(R) Celeron(R) J4125 CPU @ 2.00GHz
+	Identifier: Intel64 Family 6 Model 122 Stepping 8
+	Microarchitecture: Goldmont Plus
+	Frequency (GHz): 2.00
+	Number of physical packages: 1
+	Number of physical CPUs: 4
+	Number of logical CPUs: 4
+	Graphics card #0 name: unknown
+	Graphics card #0 vendor: unknown
+	Graphics card #0 VRAM (MiB): 0.00
+	Graphics card #0 deviceId: unknown
+	Graphics card #0 versionInfo: unknown
+	Virtual memory max (MiB): 8403.99
+	Virtual memory used (MiB): 7233.59
+	Swap memory total (MiB): 5515.92
+	Swap memory used (MiB): 3551.86
+	Space in storage for jna.tmpdir (MiB): <path not set>
+	Space in storage for org.lwjgl.system.SharedLibraryExtractPath (MiB): <path not set>
+	Space in storage for io.netty.native.workdir (MiB): <path not set>
+	Space in storage for java.io.tmpdir (MiB): available: 606888.75, total: 3651993.50
+	Space in storage for workdir (MiB): available: 606888.75, total: 3651993.50
+	JVM Flags: 2 total; -Xmx1G -Xms1G
+	Debug Flags: 0 total; 
+	Fabric Mods: 
+		cloth-config: Cloth Config v20 21.11.153
+			cloth-basic-math: cloth-basic-math 0.6.1
+		emerald-equipment: Emerald Equipment 1.0.1
+		fabric-api: Fabric API 0.140.2+1.21.11
+			fabric-api-base: Fabric API Base 1.0.5+4ebb5c083e
+			fabric-api-lookup-api-v1: Fabric API Lookup API (v1) 1.6.113+1fb1cde93e
+			fabric-biome-api-v1: Fabric Biome API (v1) 17.1.1+4fc5413f3e
+			fabric-block-api-v1: Fabric Block API (v1) 1.1.10+4ebb5c083e
+			fabric-block-view-api-v2: Fabric BlockView API (v2) 1.0.39+4ebb5c083e
+			fabric-command-api-v2: Fabric Command API (v2) 2.4.7+6b42a6003e
+			fabric-content-registries-v0: Fabric Content Registries (v0) 10.2.14+4fc5413f3e
+			fabric-convention-tags-v1: Fabric Convention Tags 2.1.55+7f945d5b3e
+			fabric-convention-tags-v2: Fabric Convention Tags (v2) 2.17.3+8ef948ba3e
+			fabric-crash-report-info-v1: Fabric Crash Report Info (v1) 0.3.23+4ebb5c083e
+			fabric-data-attachment-api-v1: Fabric Data Attachment API (v1) 1.8.44+1fb1cde93e
+			fabric-data-generation-api-v1: Fabric Data Generation API (v1) 23.4.0+69974c4e3e
+			fabric-dimensions-v1: Fabric Dimensions API (v1) 4.0.28+4fc5413f3e
+			fabric-entity-events-v1: Fabric Entity Events (v1) 3.0.5+4ebb5c083e
+			fabric-events-interaction-v0: Fabric Events Interaction (v0) 4.0.44+1fb1cde93e
+			fabric-game-rule-api-v1: Fabric Game Rule API (v1) 2.0.3+4fc5413f3e
+			fabric-item-api-v1: Fabric Item API (v1) 11.5.20+d0c46b9e3e
+			fabric-item-group-api-v1: Fabric Item Group API (v1) 4.2.36+4fc5413f3e
+			fabric-lifecycle-events-v1: Fabric Lifecycle Events (v1) 2.6.15+4ebb5c083e
+			fabric-loot-api-v2: Fabric Loot API (v2) 3.0.73+3f89f5a53e
+			fabric-loot-api-v3: Fabric Loot API (v3) 2.0.20+78c8b4663e
+			fabric-message-api-v1: Fabric Message API (v1) 6.1.12+4ebb5c083e
+			fabric-networking-api-v1: Fabric Networking API (v1) 5.1.5+ae1e07683e
+			fabric-object-builder-api-v1: Fabric Object Builder API (v1) 21.1.39+4fc5413f3e
+			fabric-particles-v1: Fabric Particles (v1) 4.2.11+4fc5413f3e
+			fabric-recipe-api-v1: Fabric Recipe API (v1) 8.2.3+4ebb5c083e
+			fabric-registry-sync-v0: Fabric Registry Sync (v0) 6.2.5+1718722b3e
+			fabric-rendering-fluids-v1: Fabric Rendering Fluids (v1) 3.1.43+4ebb5c083e
+			fabric-resource-conditions-api-v1: Fabric Resource Conditions API (v1) 5.0.35+4fc5413f3e
+			fabric-resource-loader-v0: Fabric Resource Loader (v0) 3.3.4+4fc5413f3e
+			fabric-resource-loader-v1: Fabric Resource Loader (v1) 1.0.10+78c8b4663e
+			fabric-screen-handler-api-v1: Fabric Screen Handler API (v1) 1.3.161+4fc5413f3e
+			fabric-serialization-api-v1: Fabric Serialization API (v1) 1.0.5+4ebb5c083e
+			fabric-tag-api-v1: Fabric Tag API (v1) 1.2.20+4fc5413f3e
+			fabric-transfer-api-v1: Fabric Transfer API (v1) 6.0.24+4fc5413f3e
+			fabric-transitive-access-wideners-v1: Fabric Transitive Access Wideners (v1) 7.1.0+014c8cec3e
+		fabricloader: Fabric Loader 0.18.4
+			mixinextras: MixinExtras 0.5.0
+		ferritecore: FerriteCore 8.0.3
+		java: OpenJDK 64-Bit Server VM 21
+		lithium: Lithium 0.21.2+mc1.21.11
+		minecraft: Minecraft 1.21.11
+		morevillagers: MoreVillagers 1.25.12.3
+		mr_xaeros_mapserverutils: Xaero's Map Server Utils 1.1.0
+		villagerapi: VillagerAPI 1.25.12.2
+		weaponsexpanded: Weapons Expanded 1.7.3
+	Server Running: true
+	Player Count: 4 / 20; [class_3222['FNocturna'/257, l='ServerLevel[LAST CHRISTMAS]', x=371.41, y=110.00, z=517.35], class_3222['Komasanpro'/1720, l='ServerLevel[LAST CHRISTMAS]', x=-1195.15, y=70.94, z=-1282.91], class_3222['Tarti_wii'/507, l='ServerLevel[LAST CHRISTMAS]', x=289.70, y=130.82, z=329.51], class_3222['Whisk_potato'/18753, l='ServerLevel[LAST CHRISTMAS]', x=1.46, y=136.78, z=723.62]]
+	Active Data Packs: vanilla, emerald-equipment, fabric-convention-tags-v2, morevillagers, mr_xaeros_mapserverutils (incompatible), weaponsexpanded, file/bukkit
+	Available Data Packs: emerald-equipment, fabric-convention-tags-v2, file/bukkit, minecart_improvements, morevillagers, mr_xaeros_mapserverutils (incompatible), redstone_experiments, trade_rebalance, vanilla, weaponsexpanded
+	Enabled Feature Flags: minecraft:vanilla
+	World Generation: Stable
+	World Seed: -6986391645029042954
+	Suppressed Exceptions: ~~NONE~~
+	Is Modded: Definitely; Server brand changed to 'fabric'
+	Type: Dedicated Server (map_server.txt)
