@@ -6,6 +6,7 @@ services:
     ports:
       - "25565:25565"
     environment:
+      FORCE_WORLD_COPY: false
       EULA: "TRUE"
       TYPE: "FABRIC"
       VERSION: "1.21.11"
@@ -22,5 +23,6 @@ services:
         lithium
         polymer 
         universal-shops
-      volumes:
-        - ./data:/data
+    volumes:
+      - ./data/:/data:rw
+

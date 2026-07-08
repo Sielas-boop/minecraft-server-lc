@@ -1,125 +1,370 @@
-[03:58:09] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2209ms or 44 ticks behind
-[04:03:16] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 7380ms or 147 ticks behind
-[13:06:56] [User Authenticator #3/INFO]: UUID of player Komasanpro is 058b85ed-1dd7-44d8-86e5-067d7bc1dcd7
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_scythe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_hammer' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_sickle' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_hatchet' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_katana' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_battleaxe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_longsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_greatsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_broadsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_scythe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_battleaxe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_katana' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_broadsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_greatsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_hatchet' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_hammer' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_longsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_sickle' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_hammer' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_greatsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_sickle' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_broadsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_katana' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_longsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_scythe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_battleaxe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_hatchet' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_battleaxe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_greatsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_broadsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_sickle' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_hatchet' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_scythe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_katana' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_hammer' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_longsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_scythe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_battleaxe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_sickle' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_hammer' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_hatchet' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_katana' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_greatsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_broadsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_longsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_greatsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_longsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_katana' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_broadsword' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_hammer' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_hatchet' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_sickle' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_battleaxe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_scythe' in progress file ./LAST CHRISTMAS/advancements/058b85ed-1dd7-44d8-86e5-067d7bc1dcd7.json - it doesn't exist anymore?
-[13:06:58] [Server thread/INFO]: Komasanpro[/172.19.0.1:59822] logged in with entity id 792 at (-203.0414710109354, 69.0, -380.90270665886743)
-[13:06:58] [Server thread/INFO]: Komasanpro joined the game
-[13:06:58] [Server thread/INFO]: Komasanpro has made the advancement [Diamond Warrior]
-[13:08:19] [Server thread/WARN]: Can't keep up! Is the server overloaded? Running 2202ms or 44 ticks behind
-[13:11:00] [User Authenticator #4/INFO]: UUID of player FNocturna is 624a550e-c57b-4c26-b01c-77d0b2bcd9bd
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
-[13:11:06] [Server thread/INFO]: FNocturna[/172.19.0.1:59992] logged in with entity id 1857 at (57.364166265804144, 93.0, 85.29904905413973)
-[13:11:06] [Server thread/INFO]: FNocturna joined the game
-[13:11:09] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/1984, l='ServerLevel[LAST CHRISTMAS]', x=399.48, y=102.93, z=517.45]
-[13:12:02] [User Authenticator #5/INFO]: UUID of player FNocturna is 624a550e-c57b-4c26-b01c-77d0b2bcd9bd
-[13:12:05] [User Authenticator #6/INFO]: UUID of player Komasanpro is 058b85ed-1dd7-44d8-86e5-067d7bc1dcd7
-[13:12:20] [User Authenticator #7/INFO]: UUID of player Komasanpro is 058b85ed-1dd7-44d8-86e5-067d7bc1dcd7
-[13:12:24] [Server Watchdog/ERROR]: A single server tick took 60.00 seconds (should be max 0.05)
-[13:12:24] [Server Watchdog/ERROR]: Considering it to be crashed, server will forcibly shutdown.
-[13:12:26] [Server Watchdog/ERROR]: This crash report has been saved to: /data/crash-reports/crash-2026-06-23_13.12.26-server.txt
+[19:52:45] [main/INFO]: Loading Minecraft 1.21.11 with Fabric Loader 0.19.3
+[19:52:45] [main/INFO]: Loading 69 mods:
+	- cloth-config 21.11.153
+	   \-- cloth-basic-math 0.6.1
+	- emerald_equipment 1.1.1
+	- fabric-api 0.141.4+1.21.11
+	   |-- fabric-api-base 1.0.5+4ebb5c083e
+	   |-- fabric-api-lookup-api-v1 1.6.114+20dc27073e
+	   |-- fabric-biome-api-v1 17.1.1+4fc5413f3e
+	   |-- fabric-block-api-v1 1.1.10+4ebb5c083e
+	   |-- fabric-block-view-api-v2 1.0.39+4ebb5c083e
+	   |-- fabric-command-api-v2 2.4.7+6b42a6003e
+	   |-- fabric-content-registries-v0 10.2.14+4fc5413f3e
+	   |-- fabric-convention-tags-v1 2.1.55+7f945d5b3e
+	   |-- fabric-convention-tags-v2 2.17.3+8ef948ba3e
+	   |-- fabric-crash-report-info-v1 0.3.23+4ebb5c083e
+	   |-- fabric-data-attachment-api-v1 1.8.48+eed0806f3e
+	   |-- fabric-data-generation-api-v1 23.4.1+69974c4e3e
+	   |-- fabric-dimensions-v1 4.0.28+4fc5413f3e
+	   |-- fabric-entity-events-v1 3.1.1+1d0ab4303e
+	   |-- fabric-events-interaction-v0 4.1.1+3b89ecf63e
+	   |-- fabric-game-rule-api-v1 2.0.3+4fc5413f3e
+	   |-- fabric-item-api-v1 11.5.20+d0c46b9e3e
+	   |-- fabric-item-group-api-v1 4.2.36+4fc5413f3e
+	   |-- fabric-key-binding-api-v1 1.1.7+4fc5413f3e
+	   |-- fabric-lifecycle-events-v1 2.6.15+4ebb5c083e
+	   |-- fabric-loot-api-v2 3.0.73+3f89f5a53e
+	   |-- fabric-loot-api-v3 2.0.20+78c8b4663e
+	   |-- fabric-message-api-v1 6.1.12+4ebb5c083e
+	   |-- fabric-model-loading-api-v1 6.0.15+4fc5413f3e
+	   |-- fabric-networking-api-v1 5.1.6+6b6d71a53e
+	   |-- fabric-object-builder-api-v1 21.1.40+4fc5413f3e
+	   |-- fabric-particles-v1 4.2.12+4fc5413f3e
+	   |-- fabric-recipe-api-v1 8.2.4+4ebb5c083e
+	   |-- fabric-registry-sync-v0 6.2.6+1718722b3e
+	   |-- fabric-renderer-api-v1 8.0.3+f4ffd2e53e
+	   |-- fabric-renderer-indigo 5.0.3+f4ffd2e53e
+	   |-- fabric-rendering-fluids-v1 3.1.43+4ebb5c083e
+	   |-- fabric-rendering-v1 16.2.10+0290ad933e
+	   |-- fabric-resource-conditions-api-v1 5.0.35+4fc5413f3e
+	   |-- fabric-resource-loader-v0 3.3.4+4fc5413f3e
+	   |-- fabric-resource-loader-v1 1.0.10+78c8b4663e
+	   |-- fabric-screen-api-v1 3.1.7+4ebb5c083e
+	   |-- fabric-screen-handler-api-v1 1.3.162+4fc5413f3e
+	   |-- fabric-serialization-api-v1 1.0.5+4ebb5c083e
+	   |-- fabric-sound-api-v1 1.0.51+4fc5413f3e
+	   |-- fabric-tag-api-v1 1.2.20+4fc5413f3e
+	   |-- fabric-transfer-api-v1 6.0.25+4fc5413f3e
+	   \-- fabric-transitive-access-wideners-v1 7.1.0+014c8cec3e
+	- fabricloader 0.19.3
+	   \-- mixinextras 0.5.4
+	- ferritecore 8.0.3
+	- java 25
+	- lithium 0.21.4+mc1.21.11
+	- minecraft 1.21.11
+	- morevillagers 1.25.12.3
+	- polymer-bundled 0.15.2+1.21.11
+	   |-- polymer-autohost 0.15.2+1.21.11
+	   |-- polymer-blocks 0.15.2+1.21.11
+	   |-- polymer-common 0.15.2+1.21.11
+	   |    \-- packet_tweaker 0.6.0+1.21.10
+	   |-- polymer-core 0.15.2+1.21.11
+	   |    |-- polymer-networking 0.15.2+1.21.11
+	   |    |    \-- polymer-common 0.15.2+1.21.11
+	   |    |         \-- packet_tweaker 0.6.0+1.21.10
+	   |    \-- polymer-registry-sync-manipulator 0.15.2+1.21.11
+	   |-- polymer-resource-pack 0.15.2+1.21.11
+	   |    \-- polymer-common 0.15.2+1.21.11
+	   |         \-- packet_tweaker 0.6.0+1.21.10
+	   |-- polymer-resource-pack-extras 0.15.2+1.21.11
+	   |-- polymer-sound-patcher 0.15.2+1.21.11
+	   \-- polymer-virtual-entity 0.15.2+1.21.11
+	        \-- polymer-common 0.15.2+1.21.11
+	             \-- packet_tweaker 0.6.0+1.21.10
+	- tastyvanilla 1.0.0
+	- universal_shops 1.13.0+1.21.11
+	   |-- common-economy-api 1.1.1
+	   |-- common-protection-api 1.0.0
+	   |-- fabric-permissions-api-v0 0.6.0-patbox
+	   |-- placeholder-api 2.8.1+1.21.10
+	   |-- server_translations_api 2.5.2+1.21.9-pre3
+	   \-- sgui 1.11.0+1.21.9
+	- villagerapi 1.26.1.3
+	- weaponsexpanded 1.9.1
+[19:52:45] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/data/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[19:52:45] [main/INFO]: Compatibility level set to JAVA_21
+[19:52:45] [main/INFO]: Loaded configuration file for Lithium: 171 options available, 0 override(s) found.
+[19:52:46] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[19:52:53] [main/INFO]: More Villagers block entities registered: com.frikinjay.morevillagers.platform.fabric.CommonPlatformHelperImpl$$Lambda/0x0000000054d87a78@412a667c
+[19:52:53] [main/INFO]: Registering Mod Items for tastyvanilla
+[19:52:53] [main/INFO]: Registering Mod Blocks fortastyvanilla
+[19:52:53] [main/INFO]: Registering Mod Compostable Items for tastyvanilla
+[19:52:53] [main/INFO]: Register Mod Entities fortastyvanilla
+[19:52:53] [main/INFO]: Registering Mod Villager Trades for tastyvanilla
+[19:52:53] [main/INFO]: === Starting VillagerPack Validation ===
+[19:52:53] [main/INFO]: Validating pack: morevillagers
+[19:52:53] [main/INFO]: Pack 'morevillagers' validation completed - Pack will load
+[19:52:53] [main/INFO]:   - Display Name: More Villagers
+[19:52:53] [main/INFO]:   - Description: Adds new villager professions, types, workstations and trades
+[19:52:53] [main/INFO]:   - Author: frikinjay
+[19:52:53] [main/INFO]:   - Version: 1.25.12.1
+[19:52:53] [main/INFO]:   - Has villagers folder: true
+[19:52:53] [main/INFO]:   - Namespace: morevillagers
+[19:52:53] [main/INFO]:   - Has assets folder: true
+[19:52:53] [main/INFO]:   - Asset namespaces: morevillagers, minecraft
+[19:52:53] [main/INFO]:   - Has data folder: true
+[19:52:53] [main/INFO]:   - Data namespaces: neoforge, morevillagers, minecraft
+[19:52:53] [main/INFO]:   - Pack format: 48
+[19:52:53] [main/INFO]:   - Biome Mappings: 1
+[19:52:53] [main/INFO]:   - Biome Trades: 0
+[19:52:53] [main/INFO]:   - Gifts: 10
+[19:52:53] [main/INFO]:   - Language files in morevillagers: 8
+[19:52:53] [main/INFO]:   - Models in morevillagers: 23
+[19:52:53] [main/INFO]:   - POI Types: 10
+[19:52:53] [main/INFO]:   - Professions: 10
+[19:52:53] [main/INFO]:   - Structure Tags: 8
+[19:52:53] [main/INFO]:   - Structure tags in morevillagers: 8
+[19:52:53] [main/INFO]:   - Textures in morevillagers: 73
+[19:52:53] [main/INFO]:   - Trades: 10
+[19:52:53] [main/INFO]:   - Villager Types: 1
+[19:52:53] [main/INFO]:   - Workstations: 0
+[19:52:53] [main/INFO]: ---
+[19:52:53] [main/INFO]: === Validation Complete ===
+[19:52:53] [main/INFO]: Total packs identified: 1, Valid: 1, Invalid: 0, Critical failures: 0
+[19:52:53] [main/INFO]: Registered creative tab for villagerpack 'More Villagers' (namespace: morevillagers)
+[19:52:53] [main/INFO]: Found 1 villager pack(s): 0 from villagerpacks/, 1 from mods/
+[19:52:53] [main/INFO]: Loading mod JAR 'More Villagers' (namespace: morevillagers)
+[19:52:53] [main/INFO]: Early pack initialization complete
+[19:52:53] [main/INFO]: Registering 1 villager types from packs
+[19:52:53] [main/INFO]: Registered villager type from pack: badlands
+[19:52:53] [main/INFO]: Registering 8 map decoration types from packs
+[19:52:53] [main/INFO]: Registered map decoration type from pack: swamp_hut_decoration -> swamp_hut_decoration (keys: morevillagers:swamp_hut_decoration, swamp_hut_decoration)
+[19:52:53] [main/INFO]: Registered map decoration type from pack: pillager_outpost_decoration -> pillager_outpost_decoration (keys: morevillagers:pillager_outpost_decoration, pillager_outpost_decoration)
+[19:52:53] [main/INFO]: Registered map decoration type from pack: mineshaft_decoration -> mineshaft_decoration (keys: morevillagers:mineshaft_decoration, mineshaft_decoration)
+[19:52:53] [main/INFO]: Registered map decoration type from pack: jungle_temple_decoration -> jungle_temple_decoration (keys: morevillagers:jungle_temple_decoration, jungle_temple_decoration)
+[19:52:53] [main/INFO]: Registered map decoration type from pack: fortress_decoration -> fortress_decoration (keys: morevillagers:fortress_decoration, fortress_decoration)
+[19:52:53] [main/INFO]: Registered map decoration type from pack: end_city_decoration -> end_city_decoration (keys: morevillagers:end_city_decoration, end_city_decoration)
+[19:52:53] [main/INFO]: Registered map decoration type from pack: bastion_remnant_decoration -> bastion_remnant_decoration (keys: morevillagers:bastion_remnant_decoration, bastion_remnant_decoration)
+[19:52:53] [main/INFO]: Registered map decoration type from pack: ancient_city_decoration -> ancient_city_decoration (keys: morevillagers:ancient_city_decoration, ancient_city_decoration)
+[19:52:53] [main/INFO]: Creating 8 structure tags from packs
+[19:52:53] [main/INFO]: Created structure tag from pack: TagKey[minecraft:worldgen/structure / morevillagers:on_swamp_hut_explorer_maps]
+[19:52:53] [main/INFO]: Created structure tag from pack: TagKey[minecraft:worldgen/structure / morevillagers:on_pillager_outpost_explorer_maps]
+[19:52:53] [main/INFO]: Created structure tag from pack: TagKey[minecraft:worldgen/structure / morevillagers:on_mineshaft_explorer_maps]
+[19:52:53] [main/INFO]: Created structure tag from pack: TagKey[minecraft:worldgen/structure / morevillagers:on_jungle_temple_explorer_maps]
+[19:52:53] [main/INFO]: Created structure tag from pack: TagKey[minecraft:worldgen/structure / morevillagers:on_fortress_explorer_maps]
+[19:52:53] [main/INFO]: Created structure tag from pack: TagKey[minecraft:worldgen/structure / morevillagers:on_end_city_explorer_maps]
+[19:52:53] [main/INFO]: Created structure tag from pack: TagKey[minecraft:worldgen/structure / morevillagers:on_bastion_remnant_explorer_maps]
+[19:52:53] [main/INFO]: Created structure tag from pack: TagKey[minecraft:worldgen/structure / morevillagers:on_ancient_city_maps]
+[19:52:53] [main/INFO]: Registering 10 POI types from packs
+[19:52:53] [main/INFO]: Registered POI type from pack: woodworker with namespace: morevillagers
+[19:52:53] [main/INFO]: Registered POI type from pack: oceanographer with namespace: morevillagers
+[19:52:53] [main/INFO]: Registered POI type from pack: netherian with namespace: morevillagers
+[19:52:53] [main/INFO]: Registered POI type from pack: miner with namespace: morevillagers
+[19:52:53] [main/INFO]: Registered POI type from pack: iceman with namespace: morevillagers
+[19:52:53] [main/INFO]: Registered POI type from pack: hunter with namespace: morevillagers
+[19:52:53] [main/INFO]: Registered POI type from pack: florist with namespace: morevillagers
+[19:52:53] [main/INFO]: Registered POI type from pack: explorer with namespace: morevillagers
+[19:52:53] [main/INFO]: Registered POI type from pack: engineer with namespace: morevillagers
+[19:52:53] [main/INFO]: Registered POI type from pack: enderian with namespace: morevillagers
+[19:52:53] [main/INFO]: Registering 10 professions from packs
+[19:52:53] [main/INFO]: Registered profession from pack: woodworker
+[19:52:53] [main/INFO]: Registered profession from pack: oceanographer
+[19:52:53] [main/INFO]: Registered profession from pack: netherian
+[19:52:53] [main/INFO]: Registered profession from pack: miner
+[19:52:53] [main/INFO]: Registered profession from pack: iceman
+[19:52:53] [main/INFO]: Registered profession from pack: hunter
+[19:52:53] [main/INFO]: Registered profession from pack: florist
+[19:52:53] [main/INFO]: Registered profession from pack: explorer
+[19:52:53] [main/INFO]: Registered profession from pack: engineer
+[19:52:53] [main/INFO]: Registered profession from pack: enderian
+[19:52:53] [main/INFO]: Staging 10 gifts from packs
+[19:52:53] [main/INFO]: Registered gift from pack: woodworker (will be applied lazily)
+[19:52:53] [main/INFO]: Registered gift from pack: oceanographer (will be applied lazily)
+[19:52:53] [main/INFO]: Registered gift from pack: netherian (will be applied lazily)
+[19:52:53] [main/INFO]: Registered gift from pack: miner (will be applied lazily)
+[19:52:53] [main/INFO]: Registered gift from pack: iceman (will be applied lazily)
+[19:52:53] [main/INFO]: Registered gift from pack: hunter (will be applied lazily)
+[19:52:53] [main/INFO]: Registered gift from pack: florist (will be applied lazily)
+[19:52:53] [main/INFO]: Registered gift from pack: explorer (will be applied lazily)
+[19:52:53] [main/INFO]: Registered gift from pack: engineer (will be applied lazily)
+[19:52:53] [main/INFO]: Registered gift from pack: enderian (will be applied lazily)
+[19:52:53] [main/INFO]: Content registration complete
+[19:52:53] [main/INFO]: Registered creative tab for villagerpack 'More Villagers' with 0 items
+[19:52:53] [main/INFO]: Registered villagerpack repository sources
+[19:52:53] [main/INFO]: Initializing weaponsexpanded version 1.9.1
+[19:52:53] [main/ERROR]: Couldn't load emerald_equipment overlays metadata: Overlay "1.21.11" missing required field formats, must be present in all overlays for any overlays to work across game versions
+[19:52:53] [main/ERROR]: Couldn't load emerald_equipment overlays metadata: Overlay "1.21.11" missing required field formats, must be present in all overlays for any overlays to work across game versions
+[19:52:53] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[19:52:54] [main/ERROR]: Couldn't load emerald_equipment overlays metadata: Overlay "1.21.11" missing required field formats, must be present in all overlays for any overlays to work across game versions
+[19:52:55] [main/INFO]: Loaded 1740 recipes
+[19:52:55] [main/INFO]: Loaded 1744 advancements
+[19:52:55] [ForkJoinPool.commonPool-worker-1/INFO]: Loaded 63 translation keys
+[19:52:56] [main/INFO]: Applied 19 biome modifications to 14 of 65 new biomes in 6.434 ms
+[19:52:56] [Server thread/INFO]: Validating POI types and professions...
+[19:52:56] [Server thread/INFO]: POI type validation: 10 valid, 0 invalid
+[19:52:56] [Server thread/INFO]: Profession validation: 10 valid, 0 invalid
+[19:52:56] [Server thread/INFO]: Cleared biome mappings cache
+[19:52:56] [Server thread/INFO]: Registered 3 biome-to-villager-type mappings from villagerpacks
+[19:52:56] [Server thread/INFO]: Registering trades for 10 professions from packs
+[19:52:56] [Server thread/INFO]: Registered trades from pack: woodworker
+[19:52:56] [Server thread/INFO]: Registered trades from pack: oceanographer
+[19:52:56] [Server thread/INFO]: Registered trades from pack: netherian
+[19:52:56] [Server thread/INFO]: Registered trades from pack: miner
+[19:52:56] [Server thread/INFO]: Registered trades from pack: iceman
+[19:52:56] [Server thread/INFO]: Registered trades from pack: hunter
+[19:52:56] [Server thread/INFO]: Registered trades from pack: florist
+[19:52:56] [Server thread/INFO]: Registered trades from pack: explorer
+[19:52:56] [Server thread/INFO]: Registered trades from pack: engineer
+[19:52:56] [Server thread/INFO]: Registered trades from pack: enderian
+[19:52:56] [Server thread/INFO]: Server starting initialization complete
+[19:52:56] [Server thread/INFO]: Starting minecraft server version 1.21.11
+[19:52:56] [Server thread/INFO]: Loading properties
+[19:52:56] [Server thread/INFO]: Default game type: SURVIVAL
+[19:52:56] [Server thread/INFO]: Generating keypair
+[19:52:56] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:52:56] [Server thread/INFO]: Preparing level "LAST CHRISTMAS"
+[19:52:56] [Server thread/INFO]: Loading 0 persistent chunks...
+[19:52:56] [Server thread/INFO]: Preparing spawn area: 100%
+[19:52:56] [Server thread/INFO]: Time elapsed: 14 ms
+[19:52:56] [Server thread/INFO]: Done (0.456s)! For help, type "help"
+[19:52:56] [Server thread/INFO]: Starting remote control listener
+[19:52:57] [Server thread/INFO]: Thread RCON Listener started
+[19:52:57] [Server thread/INFO]: RCON running on 0.0.0.0:25575
+[19:52:57] [Server thread/INFO]: Applied 10 gifts from packs
+[19:52:57] [Server thread/INFO]: VillagerAPI initialization complete!
+[19:56:24] [User Authenticator #1/INFO]: UUID of player Whisk_potato is 63bea7f2-b738-4eb5-8e73-13ef4f9a95b5
+[19:56:25] [Server thread/INFO]: Whisk_potato[/192.168.1.51:50438] logged in with entity id 68 at (-79.45432762534553, 97.01658946008797, -353.4762616749929)
+[19:56:25] [Server thread/INFO]: Whisk_potato joined the game
+[19:56:29] [Server thread/WARN]: UUID of added entity already exists: class_1472['Sheep'/249, l='ServerLevel[LAST CHRISTMAS]', x=-101.92, y=130.00, z=-207.93]
+[19:56:30] [Server thread/INFO]: Whisk_potato lost connection: Disconnected
+[19:56:30] [Server thread/INFO]: Whisk_potato left the game
+[19:59:15] [User Authenticator #2/INFO]: UUID of player Komasanpro is 058b85ed-1dd7-44d8-86e5-067d7bc1dcd7
+[19:59:16] [Server thread/INFO]: Komasanpro[/192.168.1.35:59240] logged in with entity id 402 at (-113.80511390278377, 69.61916400215514, -401.8748874300303)
+[19:59:16] [Server thread/INFO]: Komasanpro joined the game
+[19:59:17] [Server thread/INFO]: Komasanpro lost connection: Disconnected
+[19:59:17] [Server thread/INFO]: Komasanpro left the game
+[20:02:41] [User Authenticator #3/INFO]: UUID of player Komasanpro is 058b85ed-1dd7-44d8-86e5-067d7bc1dcd7
+[20:02:42] [Server thread/INFO]: Komasanpro[/192.168.1.35:49681] logged in with entity id 607 at (-113.80511390278377, 69.61916400215514, -401.8748874300303)
+[20:02:42] [Server thread/INFO]: Komasanpro joined the game
+[20:02:53] [Server thread/INFO]: Komasanpro lost connection: Disconnected
+[20:02:53] [Server thread/INFO]: Komasanpro left the game
+[20:27:13] [User Authenticator #4/INFO]: UUID of player Tarti_wii is 5e25fdf6-9baa-47a4-9677-99485f002dc0
+[20:27:14] [Server thread/INFO]: Tarti_wii (5e25fdf6-9baa-47a4-9677-99485f002dc0) lost connection: Disconnected
+[20:29:41] [User Authenticator #5/INFO]: UUID of player Tarti_wii is 5e25fdf6-9baa-47a4-9677-99485f002dc0
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_scythe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_hammer' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_sickle' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_hatchet' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_katana' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_battleaxe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_longsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_greatsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_broadsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_hammer' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_greatsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_sickle' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_broadsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_katana' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_longsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_scythe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_battleaxe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_hatchet' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_battleaxe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_greatsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_broadsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_sickle' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_hatchet' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_scythe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_katana' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_hammer' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_longsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_greatsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_longsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_katana' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_broadsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_hammer' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_hatchet' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_sickle' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_battleaxe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_scythe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_scythe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_battleaxe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_sickle' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_hammer' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_hatchet' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_katana' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_greatsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_broadsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_longsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_scythe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_battleaxe' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_katana' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_broadsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_greatsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_hatchet' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_hammer' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_longsword' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_sickle' in progress file ./LAST CHRISTMAS/advancements/5e25fdf6-9baa-47a4-9677-99485f002dc0.json - it doesn't exist anymore?
+[20:29:43] [Server thread/INFO]: Tarti_wii[/192.168.1.48:58020] logged in with entity id 876 at (224.62218312938367, 106.0625, 628.3000000119209)
+[20:29:43] [Server thread/INFO]: Tarti_wii joined the game
+[20:35:56] [Server thread/INFO]: Tarti_wii lost connection: Disconnected
+[20:35:56] [Server thread/INFO]: Tarti_wii left the game
+[20:53:04] [User Authenticator #6/INFO]: UUID of player Tarti_wii is 5e25fdf6-9baa-47a4-9677-99485f002dc0
+[20:53:05] [Server thread/INFO]: Tarti_wii[/192.168.1.48:62135] logged in with entity id 2480 at (224.67224891386317, 106.0625, 632.4812080252376)
+[20:53:05] [Server thread/INFO]: Tarti_wii joined the game
+[20:53:57] [User Authenticator #7/INFO]: UUID of player FNocturna is 624a550e-c57b-4c26-b01c-77d0b2bcd9bd
+[20:53:58] [Server thread/INFO]: FNocturna (624a550e-c57b-4c26-b01c-77d0b2bcd9bd) lost connection: Disconnected
+[20:55:09] [User Authenticator #8/INFO]: UUID of player FNocturna is 624a550e-c57b-4c26-b01c-77d0b2bcd9bd
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/stone_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/wooden_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/iron_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/copper_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/golden_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_scythe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_battleaxe' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_sickle' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_hammer' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_hatchet' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_katana' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_greatsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_broadsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/WARN]: Ignored advancement 'weaponsexpanded:recipes/diamond_longsword' in progress file ./LAST CHRISTMAS/advancements/624a550e-c57b-4c26-b01c-77d0b2bcd9bd.json - it doesn't exist anymore?
+[20:55:10] [Server thread/INFO]: FNocturna[/192.168.1.53:54826] logged in with entity id 3127 at (57.364166265804144, 93.0, 85.29904905413973)
+[20:55:11] [Server thread/INFO]: FNocturna joined the game
+[20:55:11] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/3128, l='ServerLevel[LAST CHRISTMAS]', x=399.48, y=103.01, z=517.45]
+[20:55:11] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[20:55:57] [Server thread/INFO]: Tarti_wii lost connection: Disconnected
+[20:55:57] [Server thread/INFO]: Tarti_wii left the game
+[20:56:08] [Server thread/INFO]: FNocturna lost connection: Disconnected
+[20:56:08] [Server thread/INFO]: FNocturna left the game

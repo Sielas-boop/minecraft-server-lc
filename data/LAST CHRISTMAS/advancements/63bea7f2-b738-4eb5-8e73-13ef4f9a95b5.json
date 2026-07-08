@@ -3526,5 +3526,11 @@
     },
     "done": true
   },
+  "weaponsexpanded:recipes/combat/wooden_warhammer": {
+    "criteria": {
+      "has_stick": "2026-07-08 19:56:25 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }
