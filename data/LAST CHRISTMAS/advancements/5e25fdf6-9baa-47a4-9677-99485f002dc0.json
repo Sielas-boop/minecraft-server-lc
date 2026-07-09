@@ -4356,5 +4356,245 @@
     },
     "done": true
   },
+  "weaponsexpanded:recipes/combat/wooden_sickle": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_longsword": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_warhammer": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_scythe": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_hammer": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_katana": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_battleaxe": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_hatchet": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_greatsword": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_broadsword": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:29:28 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_sickle": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:32:32 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_broadsword": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:32:32 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_battleaxe": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:32:32 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_greatsword": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:32:32 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_katana": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:32:32 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_scythe": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:32:32 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_hammer": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:32:32 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_warhammer": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:32:32 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_longsword": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:32:32 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_hatchet": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:32:32 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_hatchet": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 07:00:36 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_broadsword": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 07:00:36 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_hammer": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 07:00:36 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_battleaxe": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 07:00:36 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_warhammer": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 07:00:36 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_scythe": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 07:00:36 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_longsword": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 07:00:36 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_katana": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 07:00:36 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_sickle": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 07:00:36 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_greatsword": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 07:00:36 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_battleaxe": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 08:01:53 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_scythe": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 08:01:53 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_broadsword": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 08:01:53 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_warhammer": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 08:01:53 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_sickle": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 08:01:53 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_longsword": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 08:01:53 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_hammer": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 08:01:53 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_greatsword": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 08:01:53 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_hatchet": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 08:01:53 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_katana": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 08:01:53 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }

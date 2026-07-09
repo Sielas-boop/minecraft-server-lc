@@ -5086,5 +5086,191 @@
     },
     "done": true
   },
+  "weaponsexpanded:recipes/combat/iron_hatchet": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_broadsword": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_hammer": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_sickle": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_sickle": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:24:05 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_longsword": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_broadsword": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:24:05 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_battleaxe": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:24:05 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_battleaxe": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_greatsword": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:24:05 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_warhammer": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_warhammer": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_scythe": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_scythe": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_katana": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:24:05 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_hammer": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_katana": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_scythe": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:24:05 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_hammer": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:24:05 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_warhammer": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:24:05 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_longsword": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_longsword": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:24:05 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_battleaxe": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_katana": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_hatchet": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_sickle": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_hatchet": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 06:24:05 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/waxed_oxidized_copper_door_from_honeycomb": {
+    "criteria": {
+      "has_oxidized_copper_door": "2026-07-09 08:28:14 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/iron_greatsword": {
+    "criteria": {
+      "has_iron_tool_materials": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_greatsword": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/wooden_broadsword": {
+    "criteria": {
+      "has_stick": "2026-07-09 06:24:04 +0000"
+    },
+    "done": true
+  },
   "DataVersion": 4671
 }
