@@ -285,3 +285,17 @@
 [13:03:24] [User Authenticator #6/INFO]: UUID of player Tarti_wii is 5e25fdf6-9baa-47a4-9677-99485f002dc0
 [13:03:27] [Server thread/INFO]: Tarti_wii[/192.168.1.48:49395] logged in with entity id 75583 at (225.80526985753093, 106.0625, 633.6999999880791)
 [13:03:27] [Server thread/INFO]: Tarti_wii joined the game
+[13:40:14] [Server thread/INFO]: Tarti_wii was poked to death by a sweet berry bush
+[13:48:20] [Server thread/INFO]: Tarti_wii was slain by Piglin
+[13:53:30] [User Authenticator #7/INFO]: UUID of player FNocturna is 624a550e-c57b-4c26-b01c-77d0b2bcd9bd
+[13:53:32] [Server thread/INFO]: FNocturna[/192.168.1.53:65342] logged in with entity id 86961 at (212.3001948677226, 86.0, 700.4310784782358)
+[13:53:32] [Server thread/INFO]: FNocturna joined the game
+[13:53:32] [Server thread/WARN]: UUID of added entity already exists: class_1684['Thrown Ender Pearl'/86963, l='ServerLevel[LAST CHRISTMAS]', x=399.48, y=102.82, z=517.45]
+[13:53:32] [Server thread/WARN]: Failed to spawn player ender pearl in level (ResourceKey[minecraft:dimension / minecraft:overworld]), skipping
+[13:57:07] [Server thread/INFO]: FNocturna lost connection: Disconnected
+[13:57:07] [Server thread/INFO]: FNocturna left the game
+[13:57:37] [Server thread/INFO]: Tarti_wii lost connection: Disconnected
+[13:57:37] [Server thread/INFO]: Tarti_wii left the game
+[14:06:11] [User Authenticator #8/INFO]: UUID of player Komasanpro is 058b85ed-1dd7-44d8-86e5-067d7bc1dcd7
+[14:06:13] [Server thread/INFO]: Komasanpro[/192.168.1.35:54195] logged in with entity id 88877 at (-1272.2451937186802, 68.0, -1195.8109273914579)
+[14:06:13] [Server thread/INFO]: Komasanpro joined the game
