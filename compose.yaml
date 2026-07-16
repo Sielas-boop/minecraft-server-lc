@@ -11,6 +11,8 @@ services:
       TYPE: "FABRIC"
       VERSION: "1.21.11"
       DIFFICULTY: "NORMAL"
+      PLAYER_IDLE_TIMEOUT: "15"
+      MEMORY: "10240M"
       LEVEL: "LAST CHRISTMAS"
       MODRINTH_PROJECTS: |
         fabric-api

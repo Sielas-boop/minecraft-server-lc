@@ -23,6 +23,7 @@
       "minecraft:old_growth_spruce_taiga": "2026-01-24 12:50:32 +0000",
       "minecraft:flower_forest": "2025-12-19 20:17:05 +0000",
       "minecraft:beach": "2025-12-29 09:49:43 +0000",
+      "minecraft:dark_forest": "2026-07-10 07:42:56 +0000",
       "minecraft:river": "2025-12-19 20:16:57 +0000",
       "minecraft:dripstone_caves": "2025-12-19 22:32:16 +0000",
       "minecraft:snowy_taiga": "2025-12-29 09:52:32 +0000",
@@ -31,7 +32,8 @@
       "minecraft:deep_dark": "2025-12-20 17:44:04 +0000",
       "minecraft:grove": "2025-12-20 14:34:48 +0000",
       "minecraft:meadow": "2025-12-19 20:27:15 +0000",
-      "minecraft:plains": "2025-12-19 20:14:33 +0000"
+      "minecraft:plains": "2025-12-19 20:14:33 +0000",
+      "minecraft:pale_garden": "2026-07-10 07:45:05 +0000"
     },
     "done": false
   },
@@ -177,6 +179,7 @@
       "suspicious_stew": "2026-01-16 21:35:08 +0000",
       "salmon": "2025-12-21 16:34:01 +0000",
       "dried_kelp": "2026-01-25 11:16:04 +0000",
+      "melon_slice": "2026-07-09 15:49:40 +0000",
       "beetroot": "2025-12-21 19:04:18 +0000",
       "golden_carrot": "2026-01-28 07:11:55 +0000",
       "cooked_rabbit": "2026-01-28 13:19:57 +0000",
@@ -5269,6 +5272,318 @@
   "minecraft:recipes/redstone/waxed_oxidized_copper_door_from_honeycomb": {
     "criteria": {
       "has_oxidized_copper_door": "2026-07-09 08:28:14 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_battleaxe": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_scythe": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_broadsword": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_warhammer": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_sickle": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_longsword": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_hammer": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_greatsword": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_hatchet": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/copper_katana": {
+    "criteria": {
+      "has_copper_tool_materials": "2026-07-09 15:19:41 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_blaze_rod": {
+    "criteria": {
+      "blaze_rod": "2026-07-09 16:52:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/blaze_powder": {
+    "criteria": {
+      "has_blaze_rod": "2026-07-09 16:52:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/brewing_stand": {
+    "criteria": {
+      "has_blaze_rod": "2026-07-09 16:52:40 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/brewing/magma_cream": {
+    "criteria": {
+      "has_blaze_powder": "2026-07-10 07:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/fire_charge": {
+    "criteria": {
+      "has_blaze_powder": "2026-07-10 07:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/ender_eye": {
+    "criteria": {
+      "has_blaze_powder": "2026-07-10 07:32:27 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/end_crystal": {
+    "criteria": {
+      "has_ender_eye": "2026-07-10 07:32:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/ender_chest": {
+    "criteria": {
+      "has_ender_eye": "2026-07-10 07:32:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/pale_moss_carpet": {
+    "criteria": {
+      "has_pale_moss_block": "2026-07-10 07:47:36 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/suspicious_stew_from_closed_eyeblossom": {
+    "criteria": {
+      "has_closed_eyeblossom": "2026-07-10 07:47:45 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/gray_dye_from_closed_eyeblossom": {
+    "criteria": {
+      "has_closed_eyeblossom": "2026-07-10 07:47:45 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_greatsword": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-10 07:50:50 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_broadsword": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-10 07:50:50 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_warhammer": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-10 07:50:50 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_katana": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-10 07:50:50 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_sickle": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-10 07:50:50 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_hatchet": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-10 07:50:50 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_longsword": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-10 07:50:50 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_battleaxe": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-10 07:50:50 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_scythe": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-10 07:50:50 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_hammer": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-10 07:50:50 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/misc/blasting/gold_nugget_from_golden_battleaxe": {
+    "criteria": {
+      "has_golden_battleaxe": "2026-07-10 07:50:58 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/misc/smelting/gold_nugget_from_golden_battleaxe": {
+    "criteria": {
+      "has_golden_battleaxe": "2026-07-10 07:50:58 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-10 11:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2026-07-10 11:21:46 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_stairs_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-07-11 11:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-07-11 11:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper": {
+    "criteria": {
+      "has_copper_block": "2026-07-11 11:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-07-11 11:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_copper_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-07-11 11:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/waxed_copper_block_from_honeycomb": {
+    "criteria": {
+      "has_copper_block": "2026-07-11 11:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/copper_ingot": {
+    "criteria": {
+      "has_copper_block": "2026-07-11 11:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/redstone/copper_bulb": {
+    "criteria": {
+      "has_copper_block": "2026-07-11 11:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/copper_grate": {
+    "criteria": {
+      "has_copper_block": "2026-07-11 11:55:39 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/cut_copper_slab_from_copper_block_stonecutting": {
+    "criteria": {
+      "has_copper_block": "2026-07-11 11:55:39 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:netherite_weapon": {
+    "criteria": {
+      "netherite_weapon": "2026-07-11 14:15:56 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:weapons_expanded": {
+    "criteria": {
+      "obtain_netherite_sword": "2026-07-11 14:15:56 +0000"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/netherite_scrap_from_blasting": {
+    "criteria": {
+      "has_ancient_debris": "2026-07-11 14:24:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/netherite_scrap": {
+    "criteria": {
+      "has_ancient_debris": "2026-07-11 14:24:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:nether/obtain_ancient_debris": {
+    "criteria": {
+      "ancient_debris": "2026-07-11 14:24:48 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/nether_wart_block": {
+    "criteria": {
+      "has_nether_wart": "2026-07-11 15:08:11 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/red_nether_bricks": {
+    "criteria": {
+      "has_nether_wart": "2026-07-11 15:08:11 +0000"
     },
     "done": true
   },

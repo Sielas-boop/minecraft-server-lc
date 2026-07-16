@@ -15,6 +15,7 @@
       "minecraft:deep_ocean": "2025-12-20 17:59:10 +0000",
       "minecraft:lush_caves": "2025-12-25 12:03:04 +0000",
       "minecraft:deep_cold_ocean": "2025-12-21 16:31:26 +0000",
+      "minecraft:ice_spikes": "2026-07-14 14:38:04 +0000",
       "minecraft:frozen_ocean": "2025-12-26 12:22:35 +0000",
       "minecraft:frozen_river": "2025-12-31 11:32:22 +0000",
       "minecraft:deep_frozen_ocean": "2025-12-25 12:53:56 +0000",
@@ -27,6 +28,7 @@
       "minecraft:old_growth_spruce_taiga": "2025-12-19 21:16:37 +0000",
       "minecraft:snowy_beach": "2025-12-31 11:32:17 +0000",
       "minecraft:bamboo_jungle": "2025-12-19 20:52:09 +0000",
+      "minecraft:deep_lukewarm_ocean": "2026-07-14 15:12:25 +0000",
       "minecraft:flower_forest": "2025-12-21 16:51:19 +0000",
       "minecraft:beach": "2025-12-19 20:46:20 +0000",
       "minecraft:dark_forest": "2025-12-19 20:46:56 +0000",
@@ -39,6 +41,7 @@
       "minecraft:grove": "2025-12-22 17:53:56 +0000",
       "minecraft:meadow": "2025-12-19 20:43:49 +0000",
       "minecraft:windswept_gravelly_hills": "2025-12-31 11:30:51 +0000",
+      "minecraft:savanna": "2026-07-14 15:09:16 +0000",
       "minecraft:plains": "2025-12-19 20:09:59 +0000"
     },
     "done": false
@@ -50,6 +53,7 @@
       "minecraft:phantom": "2025-12-22 17:24:03 +0000",
       "minecraft:witch": "2025-12-21 20:13:48 +0000",
       "minecraft:hoglin": "2025-12-31 09:50:28 +0000",
+      "minecraft:piglin": "2026-07-10 17:02:36 +0000",
       "minecraft:zombie_horse": "2026-01-24 16:20:52 +0000",
       "minecraft:enderman": "2025-12-30 10:45:43 +0000",
       "minecraft:silverfish": "2026-01-24 12:58:12 +0000",
@@ -4223,9 +4227,11 @@
     "criteria": {
       "minecraft:crimson_forest": "2025-12-30 17:36:36 +0000",
       "minecraft:nether_wastes": "2025-12-31 09:25:21 +0000",
-      "minecraft:soul_sand_valley": "2025-12-31 10:00:35 +0000"
+      "minecraft:soul_sand_valley": "2025-12-31 10:00:35 +0000",
+      "minecraft:basalt_deltas": "2026-07-10 07:34:39 +0000",
+      "minecraft:warped_forest": "2026-07-10 19:50:24 +0000"
     },
-    "done": false
+    "done": true
   },
   "minecraft:recipes/misc/nether_brick": {
     "criteria": {
@@ -5016,6 +5022,360 @@
   "weaponsexpanded:recipes/combat/iron_greatsword": {
     "criteria": {
       "has_iron_tool_materials": "2026-07-09 08:22:48 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/stone_warhammer": {
+    "criteria": {
+      "has_stone_tool_materials": "2026-07-09 15:02:35 +0000"
+    },
+    "done": true
+  },
+  "minecraft:story/enchant_item": {
+    "criteria": {
+      "enchanted_item": "2026-07-09 19:49:23 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_torch": {
+    "criteria": {
+      "has_soul_sand": "2026-07-10 07:38:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/soul_campfire": {
+    "criteria": {
+      "has_soul_sand": "2026-07-10 07:38:16 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/bone_meal_from_bone_block": {
+    "criteria": {
+      "has_bone_block": "2026-07-10 07:38:25 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/magenta_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/yellow_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/red_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/green_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/purple_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/white_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/light_gray_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/gray_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/black_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/pink_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/orange_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/light_blue_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/cyan_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/brown_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/lime_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/combat/blue_harness": {
+    "criteria": {
+      "has_dried_ghast": "2026-07-10 07:40:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:husbandry/place_dried_ghast_in_water": {
+    "criteria": {
+      "place_dried_ghast_in_water": "2026-07-10 07:51:00 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_pillar": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_stairs": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/smooth_quartz": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_bricks_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/chiseled_quartz_block_from_quartz_block_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/building_blocks/quartz_slab_from_stonecutting": {
+    "criteria": {
+      "has_quartz_block": "2026-07-10 18:30:04 +0000"
+    },
+    "done": true
+  },
+  "emerald-equipment:shiny_armor": {
+    "criteria": {
+      "emerald_boots": "2026-07-11 18:37:20 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/grindstone": {
+    "criteria": {
+      "has_stone_slab": "2026-07-14 10:32:58 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/diamond_greatsword": {
+    "criteria": {
+      "has_diamond_tool_materials": "2026-07-14 14:44:37 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/diamond_hammer": {
+    "criteria": {
+      "has_diamond_tool_materials": "2026-07-14 14:44:37 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/misc/smelting/iron_nugget_from_iron_sickle": {
+    "criteria": {
+      "has_iron_sickle": "2026-07-14 15:01:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/diamond_broadsword": {
+    "criteria": {
+      "has_diamond_tool_materials": "2026-07-14 14:44:37 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/diamond_scythe": {
+    "criteria": {
+      "has_diamond_tool_materials": "2026-07-14 14:44:37 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_greatsword": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-14 14:44:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template_smithing_trim": {
+    "criteria": {
+      "has_smithing_trim_template": "2026-07-14 15:14:14 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_broadsword": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-14 14:44:38 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/diamond_katana": {
+    "criteria": {
+      "has_diamond_tool_materials": "2026-07-14 14:44:37 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_warhammer": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-14 14:44:38 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_katana": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-14 14:44:38 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/misc/blasting/iron_nugget_from_iron_sickle": {
+    "criteria": {
+      "has_iron_sickle": "2026-07-14 15:01:04 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/diamond_sickle": {
+    "criteria": {
+      "has_diamond_tool_materials": "2026-07-14 14:44:37 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/diamond_hatchet": {
+    "criteria": {
+      "has_diamond_tool_materials": "2026-07-14 14:44:37 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_sickle": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-14 14:44:38 +0000"
+    },
+    "done": true
+  },
+  "minecraft:recipes/misc/coast_armor_trim_smithing_template": {
+    "criteria": {
+      "has_coast_armor_trim_smithing_template": "2026-07-14 15:14:14 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/diamond_battleaxe": {
+    "criteria": {
+      "has_diamond_tool_materials": "2026-07-14 14:44:37 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_hatchet": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-14 14:44:38 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_longsword": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-14 14:44:38 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_battleaxe": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-14 14:44:38 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/diamond_warhammer": {
+    "criteria": {
+      "has_diamond_tool_materials": "2026-07-14 14:44:37 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_scythe": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-14 14:44:38 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/diamond_longsword": {
+    "criteria": {
+      "has_diamond_tool_materials": "2026-07-14 14:44:37 +0000"
+    },
+    "done": true
+  },
+  "weaponsexpanded:recipes/combat/golden_hammer": {
+    "criteria": {
+      "has_gold_tool_materials": "2026-07-14 14:44:38 +0000"
     },
     "done": true
   },
