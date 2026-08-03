@@ -25,6 +25,8 @@ services:
         lithium
         polymer 
         universal-shops
+        integrated-circuits
+        animal_feeding_trough
     volumes:
       - ./data/:/data:rw
 

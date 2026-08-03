@@ -5061,5 +5061,11 @@
     },
     "done": true
   },
+  "minecraft:husbandry/whole_pack": {
+    "criteria": {
+      "minecraft:woods": "2026-07-22 14:20:27 +0000"
+    },
+    "done": false
+  },
   "DataVersion": 4671
 }
